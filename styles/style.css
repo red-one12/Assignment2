@@ -11,7 +11,10 @@ html, body{
     height: 100%;
     width: 100%;
 }
-
+body{
+    background-color: black;
+    color: white;
+}
 
 
 /* shared class...  */
@@ -24,10 +27,48 @@ html, body{
 .inter{
     font-family: "Inter", sans-serif;
 }
-
+.display-flex{
+    display: flex;
+}
 
 
 
 header{
-    
+    /* background-color: rgb(110, 165, 110); */
+}
+nav{
+    /* background-color: lightcoral; */
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0px auto;
+    padding: 30px 0px;
+}
+nav .logo h1{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 800;
+    color: #E6533C;
+}
+nav ul{
+    border: 1px solid rgba(255, 255, 255, 0.150);
+    width: 45%;
+    padding: 10px 3px;
+    border-radius: 40px;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+    /* margin-left: 40px; */
+    height: 100%;
+}
+nav ul li .home{
+    background-color: #E6533C;
+    border-radius: 46px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 7px 15px;
 }
