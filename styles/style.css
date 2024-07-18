@@ -45,8 +45,7 @@ body{
 
 
 header{
-    /* background-color: rgb(110, 165, 110); */
-    padding: 15px 0px;
+    background: linear-gradient(rgba(57, 57, 57, 0.192), rgba(142, 142, 142, 0.345), black);
 }
 nav{
     /* background-color: lightcoral; */
