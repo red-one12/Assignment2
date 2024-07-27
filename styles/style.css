@@ -969,7 +969,7 @@ footer .down p{
     padding: 30px 0px;
     }
     .hero-section .left h1{
-        font-size: 46px;
+        font-size: 38px;
     }
     .hero-section .left .hero-btn {
         margin-top: 30px;
@@ -1037,7 +1037,7 @@ footer .down p{
         width: 100%;
     }
     .habits .text h1{
-        font-size: 32px;
+        font-size: 36px;
     }
 
     .run {
@@ -1047,7 +1047,7 @@ footer .down p{
         width: 100%;
     }
     .run .left .btn{
-        height: 65px;
+        height: 55px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1062,11 +1062,17 @@ footer .down p{
     .exercise .text p {
         width: 100%;
     }
+    .run .left h1 {
+        font-size: 40px;
+    }
     #jump-img{
         display: none;
     }
     #belly-fat{
         display: none;
+    }
+    .exercise .text h1 {
+        font-size: 40px;
     }
     .exercise .photo-div .row-1 .card1{
         width: 55%;
@@ -1096,7 +1102,9 @@ footer .down p{
         gap: 50px;
         height: auto;
     }
-
+    .bmi > .text > h1 {
+        font-size: 40px;
+    }
 
 
     .our-team > .text h1 {
