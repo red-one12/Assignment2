@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
+
 <body class="inter">
     <header>
         <nav class="display-flex">
@@ -14,22 +17,25 @@
                     Fitness
                 </h1>
             </div>
-            <ul class="display-flex">
+            <ul>
                 <li><a class="home" href="#">Home</a></li>
                 <li><a href="#">Service</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">About</a></li>
             </ul>
+            <i id="menuIcon" class="ri-menu-line"></i>
         </nav>
         <section class="hero-section display-flex">
             <div class="left">
                 <h1>Get body in</h1>
                 <h1><span class="allura">shape</span> & stay</h1>
                 <h1>Healthy</h1>
-                <p class="p-color">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
+                <p class="p-color">A huge selection of health and fitness content, healthy recipes and transformation
+                    stories to help you get fit and stay fit!</p>
                 <div class="hero-btn">
-                    <a class="btn" href="#">Join Club Now!</a>
-                <a class="btn" href="#">Download App</a>
+                    <a id="join-club-now-btn" class="btn" href="#">Join Club Now!</a>
+                    <a id="join-now-btn" class="btn" href="#">Join Now!</a>
+                    <a id="download-app" class="btn" href="#">Download App</a>
                 </div>
             </div>
             <div class="right">
@@ -58,7 +64,8 @@
         <section class="habits">
             <div class="text">
                 <h1>Change Your Habits</h1>
-                <p class="p-color">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+                <p class="p-color">We believe fitness should be accessible to everyone, everywhere, regardless of income
+                    or access to a gym.</p>
             </div>
             <div class="circle-cards display-flex">
                 <div class="card">
@@ -95,17 +102,19 @@
             <div class="left">
                 <h1>Run an Extra</h1>
                 <h1>Mile Easily</h1>
-                <p class="p-color">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+                <p class="p-color">We believe fitness should be accessible to everyone, everywhere, regardless of income
+                    or access to a gym. With hundreds of professional workouts.</p>
                 <a href="#" class="btn">Join Now</a>
             </div>
             <div class="right">
-                
+
             </div>
         </section>
         <section class="exercise">
             <div class="text">
                 <h1>Trainings and Exercises</h1>
-                <p class="p-color">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+                <p class="p-color">We believe fitness should be accessible to everyone, everywhere, regardless of income
+                    or access to a gym.</p>
             </div>
             <div class="photo-div">
                 <div class="row-1 display-flex">
@@ -119,7 +128,7 @@
                             <p>Push Up</p>
                         </div>
                     </div>
-                    <div class="card3">
+                    <div id="jump-img" class="card3">
                         <div>
                             <p>Jump</p>
                         </div>
@@ -136,7 +145,7 @@
                             <p>Leg Press</p>
                         </div>
                     </div>
-                    <div class="card3">
+                    <div id="belly-fat" class="card3">
                         <div>
                             <p>Loss Belly Fat</p>
                         </div>
@@ -144,9 +153,187 @@
                 </div>
             </div>
         </section>
+        <section class="bmi">
+            <div class="text">
+                <h1>BMI Calculator</h1>
+                <p class="p-color">We believe fitness should be accessible to everyone, everywhere, regardless of income
+                    or access to a gym.</p>
+            </div>
+            <div class="bmi-calculation">
+                <div class="inner-div">
+                    <div class="left">
+                        <h1>BMI Calculator Chart</h1>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>BMI</th>
+                                    <th>Weight Status</th>
+                                </tr>
+                                <tr>
+                                    <td>Below 18.5</td>
+                                    <td>Underweight</td>
+                                </tr>
+                                <tr>
+                                    <td>18.5-24.9</td>
+                                    <td>Healthy</td>
+                                </tr>
+                                <tr>
+                                    <td>25.0-29.9</td>
+                                    <td>Overweight</td>
+                                </tr>
+                                <tr>
+                                    <td>30.0-and above</td>
+                                    <td>Obese</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="right">
+                        <div class="text">
+                            <h1>Calculate your BMI</h1>
+                            <p class="p-color">We believe fitness should be accessible to everyone, everywhere,
+                                regardless of income or access to a gym. </p>
+                        </div>
+                        <form action="">
+                            <div class="height-weight">
+                                <input type="number" placeholder="Height/cm">
+                                <input type="number" placeholder="Weight/kg">
+                            </div>
+                            <div class="age-sex">
+                                <input type="number" placeholder="Age">
+                                <select name="sex" id="sex">
+                                    <option value="sex">Sex</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                </select>
+                            </div>
+                            <div class="factor">
+                                <select name="factor" id="factor">
+                                    <option value="factor">Factor</option>
+                                </select>
+                            </div>
+                            <input class="calculate" type="submit" value="Calculate">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="our-team">
+            <div class="text">
+                <h1>Meet Our Team</h1>
+                <p class="p-color">We believe fitness should be accessible to everyone, everywhere, regardless of income
+                    or access to a gym.</p>
+            </div>
+            <div class="photo-div">
+                <div class="photo-card-1 photo-card">
+                    <div class="title">
+                        <h3>Akkas Ali</h3>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div class="photo-card-2 photo-card">
+                    <div class="title">
+                        <h3>Jhakkas Ali</h3>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div class="photo-card-3 photo-card">
+                    <div class="title">
+                        <h3>Rahim Ali</h3>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div class="photo-card-4 photo-card">
+                    <div class="title">
+                        <h3>Karim Ali</h3>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div class="photo-card-5 photo-card">
+                    <div class="title">
+                        <h3>Ratul Ali</h3>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+                <div class="photo-card-6 photo-card">
+                    <div class="title">
+                        <h3>Kuddus Ali</h3>
+                        <p>Trainer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="why">
+            <div class="text">
+                <h1>Why Choose Us</h1>
+                <p class="p-color">When picking a gym, consider its amenities like guest access, hours, location, and
+                    extra benefits to enhance your experience.</p>
+            </div>
+            <div class="topics display-flex">
+                <div class="left">
+                    <div class="card">
+                        <i></i>
+                        <div class="title">
+                            <h1>Best Training</h1>
+                            <p>We provide best training course. We have some packages. You can take any of them and get
+                                the best service from us.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <i></i>
+                        <div class="title">
+                            <h1>Experience Trainers</h1>
+                            <p>We have 20+ experience trainers who are always ready to make your body fit. Our trainers
+                                are professional.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <i></i>
+                        <div class="title">
+                            <h1>Modern Equipment</h1>
+                            <p>Each of our outlet have modern equipment to exercise. All the equipments are imported
+                                from US, UK Canada and so on.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <i></i>
+                        <div class="title">
+                            <h1>Award Winners</h1>
+                            <p>We won a lot of governmental and non-governmental award. Every year we placed the top
+                                rank. Till now we have 50+ award.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
-
+        <div class="up display-flex">
+            <div class="left">
+                <h1>Fitness</h1>
+                <p class="p-color">We believe fitness should be accessible to everyone, everywhere, regardless of income
+                    or access to a gym. Whit hundreds of professional workouts.</p>
+            </div>
+            <div class="right display-flex">
+                <div class="get-started get-started-1 display-flex">
+                    <h2>Get Started</h2>
+                    <a href="#">Service</a><a href="#">Contact Us</a><a href="#">Affiliate Programm</a><a href="#">About
+                        Us</a>
+                </div>
+                <div class=" get-started get-started-2 display-flex">
+                    <h2>Get Started</h2>
+                    <a href="#">Fitness</a><a href="#">Platform</a><a href="#">Workout Library</a><a href="#">App
+                        Design</a>
+                </div>
+            </div>
+        </div>
+        <div class="down">
+            <p class="p-color">All right reserved @Fitness 2024</p>
+        </div>
     </footer>
 </body>
+
 </html>
