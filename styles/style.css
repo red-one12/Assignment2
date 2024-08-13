@@ -235,13 +235,16 @@ nav ul li a{
     width: 80%;
 }
 .habits .circle-cards .card .img-div{
-    height: 200px;
-    width: 200px;
+    height: 210px;
+    width: 210px;
     border-radius: 50%;
-    /* background-color: yellow; */
+    background-color: rgb(47, 47, 47);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .habits .circle-cards .card .img-div img{
-    width: 100%;
+    width: 96%;
     border-radius: 50%;
 }
 
@@ -1055,6 +1058,9 @@ footer .down p{
         padding: 0px 0px;
         gap: 10px;
     }
+    .habits .circle-cards .card p {
+        width: 50%;
+    }
     .habits .text{
         width: 100%;
     }
@@ -1064,6 +1070,7 @@ footer .down p{
 
     .run {
         flex-direction: column;
+        padding: 30px;
     }
     .run .left{
         width: 100%;
@@ -1076,10 +1083,15 @@ footer .down p{
         width: 100%;
         margin: 30px 0px;
     }
-    .run .right{
-        width: 100%;
-        height: 250px;
+    .run .left p {
+        font-size: 14px;
+        margin: 10px 0px;
     }
+    .run .right {
+    width: 100%;
+    height: 180px;
+    background-size: 500px;
+}
 
     .exercise .text p {
         width: 100%;
@@ -1119,7 +1131,9 @@ footer .down p{
 
 
 
-
+    .bmi .bmi-calculation {
+        margin-top: 40px;
+    }
     .bmi .bmi-calculation .inner-div {
         gap: 50px;
         height: auto;
@@ -1127,7 +1141,17 @@ footer .down p{
     .bmi > .text > h1 {
         font-size: 40px;
     }
-
+    .bmi .bmi-calculation .inner-div .right form > input {
+        margin-top: 30px;
+        border: none;
+        width: 60%;
+        background-color: #E6533C;
+        padding: 12px 40px;
+        border-radius: 42px;
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+    }
 
     .our-team > .text h1 {
         font-size: 42px;
