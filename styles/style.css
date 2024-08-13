@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Allura&family=Inter:wght@100..900&family=Parisienne&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
 
 *{
     margin: 0;
@@ -20,16 +20,12 @@ body{
 /* shared class...  */
 
 
-.allura{
-    font-family: "Allura", cursive;
-}
-
 .inter{
     font-family: "Inter", sans-serif;
+} 
+.miama{
+    font-family: 'Miama', sans-serif;
 }
-.parisienne{
-    font-family: "Parisienne", cursive;
-}  
 .display-flex{
     display: flex;
 }
@@ -108,6 +104,11 @@ nav ul li a{
 }
 .hero-section .left h1{
     font-size: 78px;
+    line-height: 90px;
+}
+.shape-design{
+    font-size: 150px;
+    font-weight: 100;
 }
 .hero-section .left p{
     margin: 20px 0px;
@@ -885,6 +886,7 @@ footer .down p{
 
 
 
+    
     .habits .circle-cards{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -985,6 +987,11 @@ footer .down p{
     .hero-section .left h1{
         font-size: 38px;
         font-weight: 900;
+        line-height: 40px;
+    }
+    .shape-design{
+        font-size: 70px;
+        font-weight: 100;
     }
     .hero-section .left .hero-btn {
         margin-top: 30px;
